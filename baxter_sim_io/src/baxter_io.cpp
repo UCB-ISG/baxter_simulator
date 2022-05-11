@@ -32,7 +32,8 @@
  *  \desc   Includes the action listener events for the QT controls
  */
 
-#include <QtGui>
+//cdr4eelz// #include <QtGui>
+#include <QtWidgets>
 #include <QMessageBox>
 #include <iostream>
 #include <baxter_sim_io/baxter_io.hpp>

@@ -30,7 +30,8 @@
 /**
  *  \author Hariharasudan Malaichamee
  */
-#include <QtGui>
+//cdr4eelz// #include <QtGui>
+#include <QtWidgets>
 #include <QApplication>
 #include <baxter_sim_io/baxter_io.hpp>
 #include <baxter_sim_io/qnode.hpp>
