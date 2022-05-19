@@ -445,6 +445,7 @@ bool arm_kinematics::Kinematics::getPositionIK(const geometry_msgs::PoseStamped&
   KDL::JntArray jnt_pos_out;
 
   jnt_pos_in.resize(num_joints);
+  jnt_pos_out.resize(num_joints);  //WARN: Necessary to make CartToJnt happy (otherwise returns -4)
   // Copying the positions of the joints relative to its index in the KDL chain
   for (unsigned int i = 0; i < num_joints; i++)
   {
