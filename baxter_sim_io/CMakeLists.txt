@@ -15,7 +15,8 @@ SET(CMAKE_CXX_FLAGS "-fPIC")
 
 set(CMAKE_AUTOMOC ON)
 find_package(catkin REQUIRED COMPONENTS roscpp baxter_core_msgs)
-find_package(Qt5Widgets REQUIRED)
+#find_package(Qt5Widgets REQUIRED)
+find_package(Qt5 REQUIRED Core Widgets)
 
 include_directories(${catkin_INCLUDE_DIRS})
 # Use this to define what the package will export (e.g. libs, headers).
